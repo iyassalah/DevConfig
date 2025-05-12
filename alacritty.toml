@@ -1,0 +1,89 @@
+import = [
+    "~/.config/alacritty/themes/themes/coolnight.toml"
+]
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[bell]
+animation = "EaseOutExpo"
+duration = 75
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "0xb8b9b9"
+blue = "0x89b4fa"
+cyan = "0x94e2d7"
+green = "0xa6e3a1"
+magenta = "0xd183e8"
+red = "0xf38ba8"
+white = "0xc6c8d3"
+yellow = "0xf9e2af"
+
+[colors.normal]
+black = "0x1e1e2e"
+blue = "0x7aa2f7"
+cyan = "0x94e2d7"
+green = "0xa6e3a1"
+magenta = "0xd183e8"
+red = "0xf38ba8"
+white = "0xc6c8d3"
+yellow = "0xf9e2af"
+
+[colors.primary]
+background = "0x1e1e2e"  # Background color
+foreground = "0xc6c8d3"  # Text color
+
+[cursor]
+style = "Block"
+unfocused_hollow = true
+
+[font]
+size = 15.0
+
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
+
+[scrolling]
+history = 0
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+[window]
+#decorations = "ButtonLess"
+opacity = 0.8
+blur = true
+
+[window.dimensions]
+columns = 80
+lines = 24
+
+[window.padding]
+x = 2
+y = 0
